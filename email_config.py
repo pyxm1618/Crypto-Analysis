@@ -5,9 +5,9 @@ from email.mime.multipart import MIMEMultipart
 # 邮件服务配置
 SMTP_SERVER = 'smtp.163.com'
 SMTP_PORT = 25
-FROM_EMAIL = '17696053018@163.com'
-TO_EMAIL = 'pyxm1618@163.com'
-SMTP_AUTH_PASSWORD = 'CZHXUZQFCUJUHHCM'
+FROM_EMAIL = '*****发件邮箱******'
+TO_EMAIL = '*****收件邮箱******'
+SMTP_AUTH_PASSWORD = '*****邮箱授权码******'
 
 def send_email(subject, body, to_email, from_email, smtp_auth_password):
     try:
