@@ -2,8 +2,8 @@ from binance.client import Client
 from datetime import datetime
 
 # 初始化币安客户端
-client = Client(api_key='sHFJLpsVoCNIrRG2sWyM0zUJSrm53FKaIHcsVtrDVVVdvhPifiOVRfZnAdwga3uV',
-                api_secret='Q87wvUPzpkBSJDqsupDSNSVXBn5qTIEqSqBgZiGjANspnMmByUmEtmAodrv1s39J')
+client = Client(api_key='***********',
+                api_secret='***********')
 
 last_update_day = None
 futures_symbols = []
